@@ -34,3 +34,10 @@ gradle build --scan # ao aceitar os termos vc passa a ter uma interface na web c
 gradle buildEnvironment
 gradle dependencies
 ```
+
+# Build Jar ou War
+```shell
+java -jar build/libs/demo-0.0.1-SNAPSHOT.war
+java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
+```
+
