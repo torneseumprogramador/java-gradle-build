@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestGradleApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Tesde de execuçao");
+		System.out.println("------- Teste de execução ------");
 		SpringApplication.run(TestGradleApplication.class, args);
 	}
 
