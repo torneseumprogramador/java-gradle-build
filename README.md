@@ -40,6 +40,7 @@ tasks.jar {
 # Como rodar a aplicação
 ```shell
 gradle jar # gera o binário da aplicação
+java -jar app/build/libs/app.jar # roda o binário gerado
 
 gradle bootRun # Roda os testes da aplicação para aplicações springboot
 ./gradlew bootRun # rodar por shell script
