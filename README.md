@@ -26,9 +26,22 @@ gradle test # Roda os testes da aplicação
 gradle tasks
 ```
 
+# Configurando manifest
+- no arquivo build.gradle adicionar o item abaixo
+```shell
+vim build.gradle
+```
+```gradle
+tasks.jar {
+    manifest.attributes["Main-Class"] = "br.com.java_gradle_app.App"
+}
+```
+
 # Como rodar a aplicação
 ```shell
-gradle bootRun # Roda os testes da aplicação
+gradle jar # gera o binário da aplicação
+
+gradle bootRun # Roda os testes da aplicação para aplicações springboot
 ./gradlew bootRun # rodar por shell script
 ```
 
