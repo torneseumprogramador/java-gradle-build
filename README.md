@@ -63,6 +63,13 @@ tasks.named('test') {
 }
 ```
 
+# Adicionando dependencia
+- https://mvnrepository.com/
+```shell
+// https://mvnrepository.com/artifact/org.springframework/spring-web
+implementation group: 'org.springframework', name: 'spring-web', version: '5.3.19'
+```
+
 # Ver todas as dependencias do projeto
 ```shell
 gradle buildEnvironment
