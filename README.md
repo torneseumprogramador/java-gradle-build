@@ -94,7 +94,7 @@ gradle buildEnvironment
 gradle dependencies
 ```
 
-# Build Jar ou War
+# Run Jar ou War
 ```shell
 java -jar build/libs/demo-0.0.1-SNAPSHOT.war
 java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
